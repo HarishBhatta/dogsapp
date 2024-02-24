@@ -31,3 +31,40 @@ body {
     text-wrap: balance;
   }
 }
+
+.dropdown {
+  position: relative;
+}
+
+.menu {
+  position: absolute;
+  list-style-type: none;
+  margin: 5px 0;
+  padding: 0;
+  width: 200px;
+}
+
+.menu > li {
+  margin: 0;
+
+  background-color: white;
+}
+
+.menu > li > button {
+  width: 100%;
+  height: 100%;
+  text-align: left;
+
+  background: none;
+  color: black;
+  border: none;
+  padding: 5px 15px;
+  margin: 0;
+  font: poppins;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 300;
+}
+.navbar{
+  z-index: 1;
+}

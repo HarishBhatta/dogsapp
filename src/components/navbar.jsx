@@ -1,9 +1,10 @@
 import Image from 'next/image';
 import Logo from "../../src/app/dogLogo.png";
 import Link from 'next/link';
+import Dropdown from './dropdown';
 export default function NavBar(){
     return(
-        <div className="h-[80px] bg-white w-full flex">
+        <div className="h-[80px] bg-white w-full flex navbar">
             <div className="">
                 <Link href="/"><Image src={Logo} alt='logo' width={100} height={100} className='pt-3 pl-10'/></Link>
              </div>
@@ -11,7 +12,7 @@ export default function NavBar(){
                 <nav className='mt-7 ml-2'>
                     <ul className='flex justify-center gap-14 font-poppins font-medium text-slate-600 text-primary'>
                         <li><Link href="/">Home</Link></li>
-                        <li>Categories</li>
+                        <li><Dropdown /></li>
                         <li><Link href="/brands">Brands</Link></li>
                         <li><Link href='/adoption'>Adoption</Link></li>
                         <li><Link href='/product'>Product</Link></li>

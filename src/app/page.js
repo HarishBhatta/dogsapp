@@ -5,6 +5,7 @@ import BestDeals from '@/components/BestDeals';
 import Slider from '@/components/slider';
 import Footer from '@/components/Footer';
 import PetForAdoption from '@/components/petforadoption';
+import { ShopByBrands } from '@/components/ShopByBrands';
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
         <Slider />
         <FeaturedProducts />
         <ShopByCategory />
+        <ShopByBrands />
         <BestDeals />
         <PetForAdoption />
         <Footer />

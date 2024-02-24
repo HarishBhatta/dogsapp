@@ -8,7 +8,7 @@ const ThirdSlide = () => {
               <h2 className='font-semibold text-xl text-blue'>Health is wealth</h2>
               <h1 className='font-bold text-6xl pl-2 mt-5'>Keep Your Pet Healthy</h1>
               <p className='font-mediun text-3xl pl-2 my-10'>Vaccinate your pet regularly and keep them healthy</p>
-              <div className="pl-2"><Button /></div>
+              <div className="pl-2"><Button button = "Book now" /></div>
               
           </div>
           <div className="bg-grey-200 mt-40">

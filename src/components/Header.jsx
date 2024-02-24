@@ -9,9 +9,9 @@ export default function Header() {
         <div className="bg-blue h-[70px] flex gap-[720px]">
             <div className="ml-10 mt-5">
                 <ul className="flex gap-3 list-none">
-                    <li className=""><Link href="https://www.facebook.com/dogsnepalpetstore?mibextid=ZbWKwL" target="_blank"><FbLogo /></Link></li>
-                    <li className=""><Link href="https://www.instagram.com/dogsnepal/?hl=en" target="_blank"><InstaLogo /></Link></li>
-                    <li><Link href="https://api.whatsapp.com/send/?phone=9841000571&text&type=phone_number&app_absent=0" target="_blank"><WhatsappLogo /></Link></li>
+                    <li className=""><Link href="https://www.facebook.com/dogsnepalpetstore?mibextid=ZbWKwL" target="_blank"><FbLogo color = "white" /></Link></li>
+                    <li className=""><Link href="https://www.instagram.com/dogsnepal/?hl=en" target="_blank"><InstaLogo color = "white" /></Link></li>
+                    <li><Link href="https://api.whatsapp.com/send/?phone=9841000571&text&type=phone_number&app_absent=0" target="_blank"><WhatsappLogo color = "white" /></Link></li>
                 </ul>  
             </div>
             <div className="mt-5 flex h-8">

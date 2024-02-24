@@ -65,7 +65,7 @@ export default function BrandSlider() {
           },
         }}
         modules={[Pagination]}
-        className="mySwiper"
+        className="mySwiper group hover:cursor-pointer"
       >
         <SwiperSlide><BrandsCard /></SwiperSlide>
         <SwiperSlide><BrandsCard /></SwiperSlide>

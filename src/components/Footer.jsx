@@ -7,8 +7,8 @@ import Link from "next/link";
 import FbLogo from './fbLogo';
 export default function Footer() {
     return(
-        <div className="bg-green-200 h-[415px]">
-            <div className="flex gap-20 px-28 border-b border-gray-400 h-[360px] mt-10">
+        <div className="bg-green-100 h-[380px]">
+            <div className="flex gap-20 px-28 border-b border-gray-400 h-[330px] mt-10">
                 <div className="h-full">
                     <div className="pl-10 pt-10">
                         <Image
@@ -30,7 +30,7 @@ export default function Footer() {
                 </div>
                 <div className="h-full mt-14">
                     <h1 className="text-3xl font-poppins font-semibold">Quick Links</h1>
-                    <ul className="mt-3 font-semibold text-lg text-inherit flex flex-col gap-3 text-slate-600 hover:cursor-pointer">
+                    <ul className="mt-3 font-medium text-lg text-inherit flex flex-col gap-2 text-slate-600 hover:cursor-pointer">
                         <li >Search</li>
                         <li>Featured Products</li>
                         <li>New Products</li>
@@ -41,7 +41,7 @@ export default function Footer() {
                 </div>
                 <div className="h-full mt-14">
                     <h1 className="text-3xl font-poppins font-semibold">Information</h1>
-                    <ul className="mt-3 font-semibold text-lg text-inherit flex flex-col gap-3 text-slate-600 hover:cursor-pointer">
+                    <ul className="mt-3 font-medium text-lg text-inherit flex flex-col gap-2 text-slate-600 hover:cursor-pointer">
                         <li className="">Terms Of Service</li>
                         <li className="">Privacy Policy</li>
                         <li className="">Return Policy</li>

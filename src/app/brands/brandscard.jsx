@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Palmeiras from "@/app/brands/palmeiras.svg"
+import Palmeiras from "@/app/brands/palmeiras.svg";
 const BrandsCard = () => {
   return (
     <div>
