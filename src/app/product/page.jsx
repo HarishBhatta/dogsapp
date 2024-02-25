@@ -1,7 +1,7 @@
-import Footer from "@/components/Footer";
-import Header from "@/components/Header";
-import Brands from "@/components/brands";
-import NavBar from "@/components/navbar";
+import Footer from "../../components/Footer";
+import Header from "../../components/Header";
+import Brands from "../../components/brands";
+import NavBar from "../../components/navbar";
 import PetProducts, { petProducts } from "./productdisplay";
 
 

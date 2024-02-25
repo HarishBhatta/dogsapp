@@ -16,8 +16,8 @@ export default function ShopByCategory() {
                     <Image
                         src={product.image}
                         alt="image"
-                        width={80}
-                        height={150}
+                        width={50}
+                        height="auto"
                     />
                     </div>
                     

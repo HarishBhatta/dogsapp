@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
-import dogimage from '@/app/dog.png';
-import dogicon from '@/app/dogicon.png';
-import Card from "@/components/card";
+import dogimage from "../../public/dogimage.png";
+import dogicon from '../../public/dogicon.png';
+import Card from "../components/card";
 import { categoryProducts } from "../../public/categoryproducts";
 export default function FeaturedProducts() {
     return (

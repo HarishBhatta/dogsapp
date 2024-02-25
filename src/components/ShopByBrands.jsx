@@ -1,4 +1,4 @@
-import BrandSlider from "@/app/brands/brandslider";
+import BrandSlider from "../app/brands/brandslider";
 import Link from "next/link";
 
 export const ShopByBrands = () => {

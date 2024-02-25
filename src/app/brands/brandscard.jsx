@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Palmeiras from "@/app/brands/palmeiras.svg";
+import Palmeiras from "../../app/brands/palmeiras.svg";
 const BrandsCard = () => {
   return (
     <div>
@@ -11,7 +11,7 @@ const BrandsCard = () => {
             
             />    
           </div>
-          <h1 className="font-medium text-xl pl-[20%] mt-5">Palmeiras</h1>
+          <h1 className="font-medium text-xl text-center mt-5">Palmeiras</h1>
         </div>
     </div>
   )

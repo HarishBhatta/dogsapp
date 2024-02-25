@@ -1,8 +1,8 @@
-import PlayIcon from '@/app/Playstore.png'
+import PlayIcon from '../app/Playstore.png'
 import Image from "next/image";
-import Logo from '@/app/dogLogo.png'
-import InstaLogo from "@/app/instaLogo";
-import WhatsappLogo from "@/app/whatsappLogo";
+import Logo from '../app/dogLogo.png'
+import InstaLogo from "../app/instaLogo";
+import WhatsappLogo from "../app/whatsappLogo";
 import Link from "next/link";
 import FbLogo from './fbLogo';
 export default function Footer() {
@@ -23,8 +23,8 @@ export default function Footer() {
                         <p className="font-normal">New Road, Kathmandu</p>
                     </div>
                     <div className="flex gap-5 mt-5 ml-5">
-                    <Link href="https://www.facebook.com/dogsnepalpetstore?mibextid=ZbWKwL" target="_blank"><FbLogo /></Link>
-                    <Link href="https://www.instagram.com/dogsnepal/?hl=en" target="_blank"><InstaLogo /></Link>
+                    <Link href="https://www.facebook.com/dogsnepalpetstore?mibextid=ZbWKwL" target="_blank"><FbLogo color = "black" /></Link>
+                    <Link href="https://www.instagram.com/dogsnepal/?hl=en" target="_blank"><InstaLogo color = "black" /></Link>
                     <Link href="https://api.whatsapp.com/send/?phone=9841000571&text&type=phone_number&app_absent=0" target="_blank"><WhatsappLogo /></Link>
                     </div>
                 </div>

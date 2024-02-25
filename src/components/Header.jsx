@@ -3,7 +3,7 @@ import PhoneLogo from "../app/PhoneLogo";
 import WhatsappLogo from "../app/whatsappLogo";
 import Link from "next/link";
 import FbLogo from "./fbLogo";
-import InstaLogo from "@/app/instaLogo";
+import InstaLogo from "../app/instaLogo";
 export default function Header() {
     return(
         <div className="bg-blue h-[70px] flex gap-[720px]">
@@ -15,7 +15,7 @@ export default function Header() {
                 </ul>  
             </div>
             <div className="mt-5 flex h-8">
-                <div className="border-r-2 flex gap-[3px] pr-3">
+                <div className="border-r-2 flex gap-[3px] pr-2">
                     <PhoneLogo />
                     <p className="text-white  font-normal text-base">+977-9841000571</p>
                 </div>

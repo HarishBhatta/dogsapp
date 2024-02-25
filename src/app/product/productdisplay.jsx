@@ -3,7 +3,7 @@
 import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { petProducts } from '@/components/products';
+import { petProducts } from '../../components/products';
 
 const PetProducts = ({ products }) => {
   return (
@@ -15,7 +15,7 @@ const PetProducts = ({ products }) => {
           <div className="mt-4 mx-1"> 
             <h2 className="text-lg font-normal mt-2 ml-4 truncate">{product.name}</h2>
             <div className="flex gap-7">
-            <p className="font-semibold text-lg line-through text-slate-400 ml-4">{product.oldprice}</p>
+            <p className="font-semibold text-lg line-through decoration-2 text-slate-400 ml-4">{product.oldprice}</p>
               <p className="font-semibold text-lg text-blue">{product.price}</p>
             </div>
             

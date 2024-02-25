@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import FishImage from '@/app/brands/husky.png'
+import FishImage from '../app/brands/husky.png'
 import Link from 'next/link';
 
 export default function Brands({title}) {
