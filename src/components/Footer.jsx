@@ -1,6 +1,6 @@
 import PlayIcon from '../app/Playstore.png'
 import Image from "next/image";
-import Logo from '../app/dogLogo.png'
+import Logo from '../../public/doghead.png'
 import InstaLogo from "../app/instaLogo";
 import WhatsappLogo from "../app/whatsappLogo";
 import Link from "next/link";
