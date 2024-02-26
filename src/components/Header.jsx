@@ -14,14 +14,14 @@ export default function Header() {
                     <li><Link href="https://api.whatsapp.com/send/?phone=9841000571&text&type=phone_number&app_absent=0" target="_blank"><WhatsappLogo color = "white" /></Link></li>
                 </ul>  
             </div>
-            <div className="mt-5 flex h-8">
-                <div className="border-r-2 flex gap-[3px] pr-2">
+            <div className="mt-5 flex h-8 pt-1">
+                <div className="border-r-2 flex gap-[3px] pr-1">
                     <PhoneLogo />
-                    <p className="text-white  font-normal text-base">+977-9841000571</p>
+                    <p className="text-white  font-normal text-base tracking-tight">+977-9841000571</p>
                 </div>
                 <div className="pl-4 flex gap-[3px]">
                     <MailLogo />
-                    <p className="text-white pr-4 font-normal text-lg tracking-wide font-poppins justify-center text-center">dogsnepal2022@gmail.com</p>
+                    <p className="text-white pr-4 font-normal text-base tracking-wide font-poppins justify-center text-center">dogsnepal2022@gmail.com</p>
                 </div>
                 
             </div>

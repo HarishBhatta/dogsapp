@@ -16,13 +16,13 @@ export default function Register(){
                         <h1 className="text-2xl antialiased tracking-widest  font-semibold ">Get Started</h1>
                         <p className="text-slate-500 tracking-wide text-base">Lets be part of our community</p>
                         <h2 className="mt-7 text-lg">Full Name *</h2>
-                        <input className="bg-slate-200 border-none h-[45px] w-[420px] pl-5 rounded-md" type="text" id="fname" name="fname" placeholder="Enter Your Full Name" required></input>
+                        <input className="bg-slate-200 border-none h-[45px] w-[420px] pl-5 rounded-md outline-none" type="text" id="fname" name="fname" placeholder="Enter Your Full Name" required></input>
                         <h2 className="mt-7 text-lg">Mobile Number *</h2>
-                        <input className="bg-slate-200 border-none h-[45px] w-[420px] pl-5 rounded-md" type="number" id="fname" name="fname" placeholder="Enter Your Mobile Number"></input>
+                        <input className="bg-slate-200 border-none h-[45px] w-[420px] pl-5 rounded-md outline-none" type="tel" id="fname" name="fname" placeholder="Enter Your Mobile Number"></input>
                         <h2 className="mt-7 text-lg">Password *</h2>
-                        <input className="bg-slate-200 border-none h-[45px] w-[420px] pl-5 rounded-md" type="text" id="fname" name="fname" placeholder="Enter Your Password"></input>
+                        <input className="bg-slate-200 border-none h-[45px] w-[420px] pl-5 rounded-md outline-none" type="password" id="fname" name="fname" placeholder="Enter Your Password"></input>
                         <h2 className="mt-7 text-lg">Confirm Password *</h2>
-                        <input className="bg-slate-200 border-none h-[45px] w-[420px] pl-5 rounded-md" type="text" id="fname" name="fname" placeholder="Re-enter Your Password"></input>
+                        <input className="bg-slate-200 border-none h-[45px] w-[420px] pl-5 rounded-md outline-none" type="password" id="fname" name="fname" placeholder="Re-enter Your Password"></input>
                         <div className="tracking-wider">
                             <input className="mt-7 text-lg" type="checkbox" id="scales" name="scales" />
                             <label for="scales" className="pl-5 text-sm font-medium">I agree to 

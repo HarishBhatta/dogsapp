@@ -12,9 +12,9 @@ const Dropdown = () => {
     <div className="dropdown">
       <button onClick={handleOpen}>Categories</button>
       {open ? (
-        <ul className="menu z-10">
+        <ul className="menu z-10" >
           <li className="menu-item">
-            <button>BODY HARNESS</button>
+            <button>BODY HARNESS </button>
           </li>
           <li className="menu-item">
             <button>TOYS</button>
