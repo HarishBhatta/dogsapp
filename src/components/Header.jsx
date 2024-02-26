@@ -17,7 +17,7 @@ export default function Header() {
             <div className="mt-5 flex h-8 pt-1">
                 <div className="border-r-2 flex gap-[3px] pr-1">
                     <PhoneLogo />
-                    <p className="text-white  font-normal text-base tracking-tight">+977-9841000571</p>
+                    <p className="text-white  font-normal text-base tracking-tight pr-2">+977-9841000571</p>
                 </div>
                 <div className="pl-4 flex gap-[3px]">
                     <MailLogo />

@@ -19,7 +19,7 @@ export default function ProductDetails({params}) {
       src={product.image}
       alt="image"
       fill={true}
-      />
+      objectFit="contain"      />
       </div>
       
       <div className="w-1/2  pl-16 tracking-widest">
