@@ -9,9 +9,9 @@ const PetProducts = ({ products }) => {
   return (
     <div className="flex flex-wrap gap-4 px-9 ml-20">
        {petProducts.map((product) => (
-        <div key={product.id} className="border bg-white h-72 group hover:cursor-pointer object-top w-52">
+        <div key={product.id} className="border bg-white h-72 group hover:cursor-pointer object-top w-52 relative">
           <Link href={`/product/${product.id}`}>
-          <Image src={product.image} alt={product.name} width={208} height="auto" className='w-full h-[65%] object-contain'/>
+          <Image src={product.image} alt={product.name} fill={false} className='w-full h-[65%] object-contain'/>
           <div className="mt-4 mx-1"> 
             <h2 className="text-lg font-normal mt-2 ml-4 truncate">{product.name}</h2>
             <div className="flex gap-7">

@@ -65,6 +65,7 @@ body {
   font-size: 16px;
   font-weight: 300;
 }
-.navbar{
-  z-index: 1;
-}
+/* .navbar li.active{
+  text: blue;
+  background: red;
+} */
