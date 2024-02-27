@@ -2,17 +2,12 @@
 import { useState } from "react";
 import Image from "next/image";
 import { petProducts } from "../../../components/products";
-import Header from "../../../components/Header";
-import NavBar from "../../../components/navbar";
-import Footer from "../../../components/Footer"
 export default function ProductDetails({params}) {
   const [value, setValue] = useState(0);
   const id = params.id;
   const product = petProducts.find((item) => item.id === parseInt(id));
   return (
     <div>
-      <Header />
-      <NavBar />
       <div className="flex pt-16 bg-teal-50 pb-16 md:flex-none">
       <div className="w-[25%] ml-[15%] h-80 relative">
       <Image
@@ -41,7 +36,6 @@ export default function ProductDetails({params}) {
       </div>
       
     </div>
-    <Footer />
     </div>
     
     

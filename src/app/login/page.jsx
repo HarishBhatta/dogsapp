@@ -1,15 +1,10 @@
-import Header from "../../components/Header";
-import NavBar from "../../components/navbar";
 import Image from "next/image";
 import img1 from "../../../public/dogregister.jpg";
 import Link from "next/link";
-import Footer from "../../components/Footer";
 
 export default function Login(){
     return(
         <div className="bg-slate-200 tracking-wider">
-            <Header />
-            <NavBar />
             <div className="flex gap-32 bg-white mt-4">
                 <div className="w-1/2">
                     <div className="pl-[15%] pt-[8%]">
@@ -45,7 +40,6 @@ export default function Login(){
                     />
                 </div>
             </div>
-            <Footer />
         </div>
         
     );
