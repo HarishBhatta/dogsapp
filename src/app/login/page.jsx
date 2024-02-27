@@ -19,10 +19,10 @@ export default function Login(){
                         <h2 className="mt-7 text-lg">Mobile Number *</h2>
                         <input className="bg-slate-200 border-none h-[45px] w-full pl-5 rounded-md outline-none" type="tel" id="fname" name="fname" placeholder="Enter Your Mobile Number"></input>
                         <h2 className="mt-7 text-lg">Password *</h2>
-                        <input className="bg-slate-200 border-none h-[45px] pl-5 rounded-md outline-none w-full" type="password" id="fname" name="fname" placeholder="Enter Your Password"></input>
+                        <input className="bg-slate-200 border-none h-[45px] pl-5 rounded-md outline-none w-full" type="password" id="password" name="fname" placeholder="Enter Your Password"></input>
                         <div className="tracking-wide">
                             <input className="mt-7 text-lg" type="checkbox" id="scales" name="scales" />
-                            <label for="scales" className="text-sm pl-2 font-normal">Remember me 
+                            <label htmlFor="scales" className="text-sm pl-2 font-normal">Remember me 
                             </label>
                         </div>
                         <input type="submit" value="Login" className="bg-blue rounded py-3 px-10 hover:cursor-pointer mt-3 text-white text-lg font-semibold tracking-widest w-full" />

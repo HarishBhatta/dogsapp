@@ -13,7 +13,7 @@ const PetProducts = ({ products }) => {
           <Link href={`/product/${product.id}`}>
           <Image src={product.image} alt={product.name} fill={false} className='w-full h-[65%] object-contain'/>
           <div className="mt-4 mx-1"> 
-            <h2 className="text-lg font-normal mt-2 ml-4 truncate">{product.name}</h2>
+            <h2 className="text-lg font-normal mt-2 truncate text-center">{product.name}</h2>
             <div className="flex gap-7">
             <p className="font-semibold text-lg line-through decoration-2 text-slate-400 ml-4">{product.oldprice}</p>
               <p className="font-semibold text-lg text-blue">{product.price}</p>

@@ -1,8 +1,8 @@
 "use client";
-import * as React from 'react';
+import { useState } from 'react';
 
 const Dropdown = () => {
-  const [open, setOpen] = React.useState(false);
+  const [open, setOpen] = useState(false);
 
   const handleOpen = () => {
     setOpen(!open);

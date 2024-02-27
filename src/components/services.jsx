@@ -1,8 +1,8 @@
 "use client";
-import * as React from 'react';
+import { useState } from 'react';
 import Link from 'next/link';
 export default function Services(){
-    const [open, setOpen] = React.useState(false);
+    const [open, setOpen] = useState(false);
 
   const handleOpen = () => {
     setOpen(!open);
@@ -11,12 +11,12 @@ export default function Services(){
         <div className="dropdown bg-white">
         <button onClick={handleOpen} className='outline-none'>Services</button>
         {open ? (
-          <ul className="menu z-10 bg-white" id='item'>
+          <ul className="menu z-30 right-[1px] bg-white select-none" id='item '>
             <li className="menu-item hover:border-l-blue border-l-4 ">
-              <button className=' text-2xl font-semibold'><Link href="/register">Vaccination</Link></button>
+              <button className=' text-lg font-medium text-slate-800'><Link href="/login">Vaccination</Link></button>
             </li>
             <li className="menu-item hover:border-l-blue border-l-4">
-              <button className=' text-2xl font-bold'><Link href="/register">Grooming</Link></button>
+              <button className=' text-lg font-medium text-slate-800'><Link href="/login">Grooming</Link></button>
             </li>
           </ul>
         ) : null}

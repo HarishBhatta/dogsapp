@@ -21,8 +21,8 @@ export default function FeaturedProducts() {
                     <Image
                     src={dogimage}
                     alt="dog image"
-                    height={280}
-                    width={350}
+                    height="auto"
+                    width="auto"
                     />
                 </div>
                 <div className="bg-amber-300 h-[290px] w-[740px] flex rounded-lg">

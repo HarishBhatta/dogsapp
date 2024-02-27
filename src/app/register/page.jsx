@@ -18,15 +18,14 @@ export default function Register(){
                         <h2 className="mt-7 text-lg">Full Name *</h2>
                         <input className="bg-slate-200 border-none h-[45px] w-full pl-5 rounded-md outline-none" type="text" id="fname" name="fname" placeholder="Enter Your Full Name" required></input>
                         <h2 className="mt-7 text-lg">Mobile Number *</h2>
-                        <input className="bg-slate-200 border-none h-[45px] w-full pl-5 rounded-md outline-none" type="tel" id="fname" name="fname" placeholder="Enter Your Mobile Number"></input>
+                        <input className="bg-slate-200 border-none h-[45px] w-full pl-5 rounded-md outline-none" type="tel" id="mnumber" name="fname" placeholder="Enter Your Mobile Number"></input>
                         <h2 className="mt-7 text-lg">Password *</h2>
-                        <input className="bg-slate-200 border-none h-[45px] w-full pl-5 rounded-md outline-none" type="password" id="fname" name="fname" placeholder="Enter Your Password"></input>
+                        <input className="bg-slate-200 border-none h-[45px] w-full pl-5 rounded-md outline-none" type="password" id="password" name="fname" placeholder="Enter Your Password"></input>
                         <h2 className="mt-7 text-lg">Confirm Password *</h2>
-                        <input className="bg-slate-200 border-none h-[45px] w-full pl-5 rounded-md outline-none" type="password" id="fname" name="fname" placeholder="Re-enter Your Password"></input>
+                        <input className="bg-slate-200 border-none h-[45px] w-full pl-5 rounded-md outline-none" type="password" id="cpassword" name="fname" placeholder="Re-enter Your Password"></input>
                         <div className="tracking-wider">
                             <input className="mt-5 h-5 w-5" type="checkbox" id="scales" name="scales" />
-                            <label for="scales" className="pl-2 text-sm font-medium">
-                                <p className="mb-[200px]">I agree to</p> 
+                            <label htmlFor="scales" className="pl-2 text-sm font-medium">I agree to
                             </label>
                             <a href="" className="text-blue text-base font-medium t"> terms and conditions</a>
                         </div>
@@ -34,11 +33,8 @@ export default function Register(){
                         <div className="flex gap-2">
                         <p className="">Already have an accont?</p>
                         <a href= "/login" className="text-blue">Login</a>
-                        </div>
-                        
-                        
+                        </div> 
                     </div>
-                    
                 </div>
                 <div className="">
                     <Image
