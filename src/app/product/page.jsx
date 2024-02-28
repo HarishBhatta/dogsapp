@@ -8,12 +8,9 @@ export default function Products() {
         <>
             <Head>
                 <title>
-                    pet dogs petproducts nepal 
+                    Products
                 </title>
-                <meta 
-                    name="description"
-                    content="All the pet and dog products that you will need at one particular place"
-                />
+                <meta property="og:title" content="My page title" key="title" />
             </Head>
             <Brands title="Products" />
             <div>
