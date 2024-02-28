@@ -5,7 +5,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { petProducts } from '../../components/products';
 
-const PetProducts = ({ products }) => {
+const PetProducts = () => {
   return (
     <div className="flex flex-wrap gap-4 px-9 ml-20">
       {petProducts.map((product) => (

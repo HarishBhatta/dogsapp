@@ -14,8 +14,6 @@ export default function NavBar() {
     const { isOpen, setIsOpen, } = useContext(SearchContext);
     return (
         <div className="h-[80px] bg-white w-full flex navbar">
-            {console.log(isOpen)}
-
             <div className="">
                 <Link href="/"><Image src={Logo} alt='logo' width={100} height={100} className='pt-3 pl-10' /></Link>
             </div>

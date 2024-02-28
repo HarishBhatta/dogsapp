@@ -16,7 +16,7 @@ export default function Services(){
               <button className=' text-lg font-medium text-slate-800'><Link href="/login">Vaccination</Link></button>
             </li>
             <li className="menu-item hover:border-l-blue border-l-4">
-              <button className=' text-lg font-medium text-slate-800'><Link href="/login">Grooming</Link></button>
+              <button className=' text-lg font-medium text-slate-800'><Link href="/shop">Shop</Link></button>
             </li>
           </ul>
         ) : null}
