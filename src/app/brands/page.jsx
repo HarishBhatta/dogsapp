@@ -1,11 +1,16 @@
+import Head from "next/head";
 import Brands from "../../components/brands";
 import BrandsView from './BrandsView';
-export default function BrandsPage() {
+export const metadata = {
+  title: 'Brands Page',
+  desription: 'Brands page of Dogsapp'
+}
+
+export default async function BrandsPage() {
   return (
-    <div className="">
-        <Brands title= "Brands"/>
-        <BrandsView />
-    </div>
-      
+      <>
+          <Brands title= "Brands"/>
+          <BrandsView />
+      </>      
   )
 }

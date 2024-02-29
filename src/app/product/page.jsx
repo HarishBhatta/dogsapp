@@ -2,8 +2,12 @@ import Head from "next/head";
 import Brands from "../../components/brands";
 import PetProducts from "./productdisplay";
 
-
-export default function Products() {
+export const metadata = {
+    title: 'Products',
+    description: 'Buy products online '
+  };
+  
+export default async function Products() {
     return (
         <>
             <Head>

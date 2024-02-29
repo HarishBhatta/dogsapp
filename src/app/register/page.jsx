@@ -2,6 +2,11 @@ import Image from "next/image";
 import img1 from "../../../public/dogregister.jpg";
 import Link from "next/link";
 
+export const metadata = {
+    title: 'Register',
+    description: 'Registrt '
+}
+
 export default function Register(){
     return(
         <div className="bg-slate-200 tracking-wider">
@@ -41,7 +46,6 @@ export default function Register(){
                     />
                 </div>
             </div>
-            <Footer />
         </div>
         
     );

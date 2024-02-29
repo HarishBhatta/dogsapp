@@ -11,7 +11,7 @@ const PetProducts = () => {
       {petProducts.map((product) => (
         <div key={product.id} className="border bg-white h-72 group hover:cursor-pointer object-top w-52 relative">
           <Link href={`/product/${product.id}`}>
-            <Image src={product.image} alt={product.name} fill={false} className='w-full h-[65%] object-contain' />
+            <Image src={product.image} alt={product.name} fill={false} quality={100} className='w-full h-[65%] object-contain' />
             <div className="mt-4 mx-1">
               <h2 className="text-lg font-normal mt-2 truncate text-center">{product.name}</h2>
               <div className="flex gap-7">

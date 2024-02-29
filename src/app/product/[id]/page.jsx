@@ -2,6 +2,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import { petProducts } from "../../../components/products";
+
 export default function ProductDetails({params}) {
   const [value, setValue] = useState(0);
   const id = params.id;
@@ -14,7 +15,9 @@ export default function ProductDetails({params}) {
       src={product.image}
       alt="image"
       fill={true}
-      objectFit="contain"      />
+      objectFit="contain"
+      quality={100}
+      />
       </div>
       
       <div className="w-1/2  pl-16 tracking-widest">

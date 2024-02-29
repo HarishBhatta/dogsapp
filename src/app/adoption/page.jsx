@@ -1,7 +1,13 @@
 import Brands from "../../components/brands";
 import Image from "next/image";
-import Sorry from '../../../public/avatar.png'
-export default function AdoptionPage(){
+import Sorry from '../../../public/avatar.png';
+
+export const metadata = {
+    title: 'Adoption',
+    description: 'Dog adoption service'
+}
+
+export default async function AdoptionPage(){
     return(
         <div className="">
             <Brands title= "Adoption" />

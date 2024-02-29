@@ -4,10 +4,14 @@ import BestDeals from '../components/BestDeals';
 import Slider from '../components/slider';
 import PetForAdoption from '../components/petforadoption';
 import { ShopByBrands } from '../components/ShopByBrands';
-import SearchProvider from '../context/SearchContext';
 import Head from 'next/head';
 
-export default function Home() {
+export const metadata = {
+  title: 'Dogs App',
+  description: 'Popular Pet website in Nepal'
+};
+
+export default async function Home() {
   return (
       <div className='bg-slate-200 w-full'> 
         <Head>
