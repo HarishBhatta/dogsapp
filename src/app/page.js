@@ -8,7 +8,7 @@ import Head from 'next/head';
 
 export const metadata = {
   title: 'Dogs App',
-  description: 'Popular Pet website in Nepal'
+  description: 'Popular Pet website in Nepal',
 };
 
 export default async function Home() {

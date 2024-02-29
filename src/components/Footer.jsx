@@ -8,7 +8,7 @@ import FbLogo from './fbLogo';
 export default function Footer() {
     return(
         <div className="bg-green-100 h-[380px]">
-            <div className="flex gap-20 px-28 border-b border-gray-400 h-[330px] mt-10">
+            <div className="flex gap-20 px-28 border-b border-gray-400 h-[330px]">
                 <div className="h-full">
                     <div className="pl-10 pt-10">
                         <Image
